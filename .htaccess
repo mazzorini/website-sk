@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} (www\.)?silentknights.de
+RewriteRule (.*) https://discord.gg/YYJ2aEhKXm [R=301,L]
